@@ -11,7 +11,7 @@ console.log(arregloAleatorio)
 
 //2. El usuario deberá ingresar un string con varias palabras separadas por coma en un popup y se deben convertir en un array,
 // (el usuario ingresa: '1,2,3,4,5' y se convierte en [1,2,3,4,5]). Mostrar en consola dicho resultado.
-let numeros = /* prompt */("Ingrese 1,2,3,4,5 en el cuadro de texto inclullendo las comas")
+let numeros = prompt("Ingrese 1,2,3,4,5 en el cuadro de texto inclullendo las comas")
 
 let combercion = numeros.split(",")
 
@@ -31,4 +31,3 @@ let mayor = Math.max(...desorden)
 
 console.log("el numero menor es: " + menor)
 console.log("el numero mayor es: "+ mayor)
-console.log(typeof desorden)
